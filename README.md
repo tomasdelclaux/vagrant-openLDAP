@@ -1,2 +1,1 @@
-# vagrant-openLDAP
-vagrant deployment for openLDAP server
+ldapsearch -x -b "ou=People,dc=MiddleEarth,dc=Rivendell,dc=com" -D "cn=ldapadm,dc=MiddleEarth,dc=Rivendell,dc=com" -H ldap://192.168.33.13 -W
